@@ -53,6 +53,9 @@ body{
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Principal</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/gaby">Avance Gaby</a>
+          </li>
         </ul>
         <!-- Left links -->
       </div>

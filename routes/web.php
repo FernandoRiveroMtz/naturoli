@@ -21,6 +21,10 @@ Route::get('/nosotros', function () {
     return view('fer.nosotros');
 });
 
+Route::get('/gaby', function () {
+    return view('gaby.principalgaby');
+});
+
 Auth::routes();
 
 Route::get('/home', [App\Http\Controllers\HomeController::class, 'index'])->name('home');
